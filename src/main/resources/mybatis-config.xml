@@ -7,7 +7,7 @@
 <configuration>  
     <!-- 全局别名设置，在映射文件中只需写别名，而不必写出整个类路径  -->  
     <typeAliases>    
-         <typeAlias type="com.deppon.test05.entity.PersonEntity" alias="PersonEntity"/>  
+         <typeAlias type="com.quickmove.mybatis.entity.PersonEntity" alias="PersonEntity"/>  
     </typeAliases>   
       
     <environments default="development">  
@@ -24,7 +24,7 @@
     </environments>  
   
     <mappers>  
-        <mapper resource="com/deppon/test05/mapper/PersonEntityMapper.xml" />  
+        <mapper resource="com/quickmove/mybatis/mapper/PersonEntityMapper.xml" />  
     </mappers>  
   
 </configuration>

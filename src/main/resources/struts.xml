@@ -9,14 +9,14 @@
 	<constant name="struts.devMode" value="true" />
 
 	<package name="default" namespace="/" extends="struts-default">
-		<action name="login_input" class="com.deppon.test02.action.UserAction"
+		<action name="login_input" class="com.quickmove.structs.action.UserAction"
 			method="login_input">
 			<result name="success">
 				/login.jsp
 			</result>
 		</action>
 
-		<action name="login" class="com.deppon.test02.action.UserAction"
+		<action name="login" class="com.quickmove.structs.action.UserAction"
 			method="login">
 			<result name="success">
 				/login_success.jsp
